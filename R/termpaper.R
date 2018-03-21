@@ -1,3 +1,5 @@
+library(rmarkdown)
+
 termpaper <- function(toc = TRUE, toc_depth = 3, highlight = "default", fig_caption = TRUE, ...) {
 
   # get the locations of resource files located within the package
