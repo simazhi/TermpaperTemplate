@@ -9,7 +9,9 @@ date: "March 2018"
 bibliography: references.bib
 csl: unified-style-linguistics.csl 
 
-output: TermpaperTemplate::termpaper
+output:
+  TermpaperTemplate::termpaper:
+
       
 
 

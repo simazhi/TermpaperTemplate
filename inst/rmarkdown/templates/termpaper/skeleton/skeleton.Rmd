@@ -10,8 +10,8 @@ bibliography: references.bib
 csl: unified-style-linguistics.csl 
 
 output:
-  TermpaperTemplate:: termpaper:
-    fig_caption: TRUE
+  TermpaperTemplate::termpaper:
+    latex_engine: xelatex
       
 
 
