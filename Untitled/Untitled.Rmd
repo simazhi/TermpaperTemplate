@@ -10,7 +10,7 @@ bibliography: references.bib
 csl: unified-style-linguistics.csl 
 
 output:
-  TermpaperTemplate:: quarterly_report
+  TermpaperTemplate:: termpaper
   bookdown::pdf_document2:
     fig_caption: yes
     latex_engine: xelatex
