@@ -1,4 +1,4 @@
-library(rmarkdown)
+#library(rmarkdown)
 
 termpaper <- function(toc = TRUE, toc_depth = 3, highlight = "default", fig_caption = TRUE, ...) {
 
@@ -15,10 +15,11 @@ termpaper <- function(toc = TRUE, toc_depth = 3, highlight = "default", fig_capt
     toc = toc,
     toc_depth = toc_depth,
     highlight = highlight,
+    fig_caption = fig_caption,
+    template = "template.tex",
 #    latex_engine: xelatex,
 #    keep_tex: keep_tex,
-    fig_caption: fig_caption,
-    includes = includes(in_header = "in_header.tex"),
+#    includes = includes(in_header = "in_header.tex"),
 #    includes = includes(in_header = "in_header.tex",
 #                        before_body = "before_body.tex",
 #                        after_body = "after_body.tex"),
