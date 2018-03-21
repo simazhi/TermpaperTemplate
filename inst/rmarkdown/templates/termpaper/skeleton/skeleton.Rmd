@@ -10,6 +10,7 @@ bibliography: references.bib
 csl: unified-style-linguistics.csl 
 
 output:
+  TermpaperTemplate:: quarterly_report
   bookdown::pdf_document2:
     fig_caption: yes
     latex_engine: xelatex
@@ -39,60 +40,3 @@ abstract: \noindent "Here is the abstract. Replace the text within the quotation
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
-
-
-# Introduction
-I have been very grateful to have held the Research Fellowship for Oustanding International Doctoral Students at National Taiwan University 國立臺灣大學國際優秀博士班學生研究獎助 ^[This scholarship is now renamed the Diaolong Doctoral Scholarship 雕龍國際博士班學生獎助.] for three years (the maximum period). This financial support helped me accomplish many academic goals in the past three years (see below and figure \@ref(fig:progress)). However, as shown in the table below, I plan to finish my doctoral dissertation at the end of the next academic year (2018-2019). For this reason, I am applying for the Financial Assistance Grant for International Students provided by National Taiwan University 國立臺灣大學國際學位生助學金.  
-
-Below I will show why I believe I am a deserving candidate for the scholarship. First I will briefly introduce the motivation for my research. Next I will discuss the desired contributions of my dissertation. This is followed by the research themes that I have focused on during my doctoral studies at the Graduate Institute of Linguistics 語言學研究所 at National Taiwan University thus far, combined with the key-progress indicators, such as conference presentations and expected publications. Lastly, I provide a tentative timetable, which I intend to follow during next academic year. I believe that with the support of the Financial Assistance Grant for International Students, I can complete my PhD dissertation in a timely fashion.
-
-# The motivation for my research
-The last three decades have seen a renewed interest in reexamining the Saussurean dictum that the link between meaning and form in language is arbitrary. That is to say, there has been much research on iconicity (esp. in Cognitive Linguistics). Two of the most salient subfields that have to do with iconicity are sound symbolism [@Hinton1994] and ideophones [@Voeltz2001].
-
-Ideophones, defined as ‘marked words that depict sensory image’ [@Dingemanse2011a; -@Dingemanse2012], occur very frequently in Chinese; see, for example, Mok [-@Mok2001]; Lu 呂 [-@Lu2006]; Meng [-@Meng2012]; Wu [-@Wu2014]; and Van Hoey [-@VanHoey2015]. In Chinese, these words  are more commonly known as onomatopoeia (*nishengci* 擬聲詞 or *xiangshengci* 象聲詞) when they depict sound. However, Chinese ideophones are semantically very rich and can also depict other sensory modalities like vision, motion, texture, temperature, inner feelings, evaluation etc. (termed ‘*nitaici*’ 擬態詞) --- a dimension of their semantics that is not as well-known as that of other East-Asian languages, e.g. Japanese and Korean.   
-
-My research is focused on their development throughout time and studies Chinese ideophones from a maximalist perspective, while keeping up-to-date with relevant research in other domains, by engaging with other scholars at conferences and the studies they performed. For instance, in 2017 I was able to go to the Netherlands as well as to Japan to meet experts in my field of linguistic iconicity.
-
-# Contributions of my dissertation
-First, my **interdisciplinary research** is innovative because it incorporates theories and evidence from different academic fields in order to study ideophones in Chinese, e.g. linguistics, cultural studies, and cognitive science. While most recent research on ideophones limits its scope to synchronic study (i.e. ideophones as they occur in current language use), but because of digitization projects of Chinese, e.g. the Academia Sinica corpora, I am able to investigate **the development of Chinese ideophones through time** and offer an almost unique perspective to my field.  
-
-  Second, I am working on a **consultable database** to handle the different kinds of data which ultimately should become a tool for further research of this overlooked set of words in Chinese. As of now, I have identified 784 different types of ideophones, and I believe many more are to be found. Furthermore, the database can be used as a starting point for future corpus-based research. I am constructing it as part of the **digital humanities** movement and in the hope of promoting **reproducible research**. 
-  
-  Third, recent research [@Perniss2014; @Lockwood2015a] focuses on **linguistic synaesthesia**, i.e. when ideophones express more than one sensory modality at the same time. This still is, however, an often neglected point in ideophone research that is only recently becoming a hot topic, and I want to share my Chinese data with the research community in order to improve our understanding of ideophones in general.
-
-# Four research themes and key-progress indicators
-My MA thesis [@VanHoey2015] at the Catholic University of Leuven (魯汶大學), Belgium,  investigated ideophones in Tang-dynasty Middle Chinese. Since starting my doctoral studies at NTU (Fall 2015), I have mainly focused on the **historical development of ideophones** in Pre-Modern Chinese. The first in-depth study I conducted at NTU was an investigation of ideophones in the *Shijing* 詩經, presented at ISACG 9 in Berlin [@VanHoey2016a]. This study was complementary to my MA thesis, since they were both collections of poetry and songs.  
-However, last year I developed an interest in other genres as well, and developed a methodology for studying the functional usage of ideophones in historical texts, with a case study on the *Three Histories* 三史. I presented this paper as an invited speaker at the Mimetics 2 Workshop in Nagoya [@VanHoey2017a]. 
-
-  A second theme in my research has been **variation** of ideophones. At the CLDC 8 conference, organised at NTU, I presented (with my advisor Dr. Lu Chiarung) a study on three variant ideophones—*mángmáng* 芒芒, *mángmáng* 茫茫, and *cāngmáng* 蒼茫—that roughly had the same meaning of 'broad, wide' and provided reasons for why *mángmáng* 茫茫 came out as the one still in use today [@VanHoey2016c]. This paper will be published in the CLR series [@VanHoeytoappear]. For this year's ICPEAL 17 - CLDC 9 joint conference, we are submitting a paper on the development of ideophones that depict \textsc{light}, e.g. *yìyì* 熠熠, *cànlàn* 燦爛, or *shǎnshǎn* 閃閃 [@VanHoeyawaitingsubmissionresult].
-  
-  The third focus of my doctoral research has been **typology**. In 2015 I undertook a study on meteorological expressions in Mandarin Chinese, which also focused on weather-related ideophones, and presented at the Max Planck Institute for Psycholinguistics (Netherlands) [@VanHoey2017]. This paper I recently submitted to the *Journal of Cognitive Semantics* and I am awaiting their review [@VanHoeyunderreviewa]. The second typology-related study is a paper that compares the semantic domains of ideophones across languages. The semantic map, which I first presented in Tachikawa, Japan [@VanHoey2016b], is in preparation for journal submission. The manuscript, however, has already been found useful by another PhD student at the University of Hong Kong who is also exploring iconicity, and they have cited it in a paper they are preparing for publication as well.
-  
-  Finally, the most recent theme in my research is the **acquisition of ideophones**. This theme is still in its infancy, but I want to investigate how (young) native speakers of Chinese learn onomatopoeia and reduplication, and to what degree. I currently view this theme as supplementary to the historical data that dominate most of my research. That is to say, since I have no native speakers of Classical Chinese who I can consult for experiments or intuition, I hope to be able to converge acquisition-based evidence  with historical evidence to get a well-rounded understanding of ideophones in Chinese.
-  
-```{r, progress, fig.cap="Research progress Thomas Van Hoey (2015-2018)"}
-knitr::include_graphics(path = "progress.pdf")
-```
-
-
-# Tentative timetable
-
-|            time           |                goal               |          時間          |               目標              |
-|:-------------------------:|:---------------------------------:|:----------------------:|:-------------------------------:|
-| July-August 2018          |           write proposal          |            2018年7-8月 |           寫論文計畫書          |
-| September 2018            | get QPPQ  publication requirement |              2018年9月 |         符合資格論文要求        |
-| October 2018              |          defend proposal          |             2018年10月 |          論文計畫書口試         |
-| October 2018              |    ICPEAL 17-CLDC 9 conference    |             2018年10月 | 參與ICPEAL 17-CLDC 9 國際研討會 |
-| November 2018- March 2019 |  finish 1st draft of dissertation | 2018年11月 至2019年3月 |         寫好博士論文草稿        |
-| March-May 2019            |      final draft dissertation     |            2019年3-5月 |           寫好博士論文          |
-| June/July 2019            |            oral defense           |            2019年6-7月 |           博士論文口試          |
-| July-August 2019          |     revisions of dissertation     |            2019年7-8月 |           博士論文修改          |
-
-
-
-# References
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-\setlength{\parskip}{8pt}
-\noindent

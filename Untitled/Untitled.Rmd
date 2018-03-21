@@ -1,0 +1,34 @@
+---
+title: "Study Plan for the Financial Assistance Grant for International Students"
+author: "Thomas Van Hoey 司馬智"
+date: "March 2018"
+output:
+  TermpaperTemplate::quarterly_report: default
+  'TermpaperTemplate:': quarterly_report
+  bookdown::pdf_document2:
+    fig_caption: yes
+    includes:
+      after_body: after_body.tex
+      before_body: before_body.tex
+      in_header: in_header.tex
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: no
+csl: unified-style-linguistics.csl
+abstract: \noindent "Here is the abstract. Replace the text within the quotation marks
+  a, b
+  + the quotation marks themselves for the final abstract." \par \textbf{Keywords:}
+documentclass: article
+fontsize: 12pt
+geometry: margin=1in
+linestretch: 1
+mainfont: Noto Serif
+bibliography: references.bib
+sansfont: Noto Sans
+CJKmainfont: Noto Sans CJK TC
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
