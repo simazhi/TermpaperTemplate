@@ -10,7 +10,8 @@ bibliography: references.bib
 csl: unified-style-linguistics.csl 
 
 output:
-  TermpaperTemplate:: termpaper
+  TermpaperTemplate:: termpaper:
+    toc = no
       
 
 
