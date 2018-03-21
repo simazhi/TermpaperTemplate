@@ -16,7 +16,7 @@ termpaper <- function(toc = TRUE, toc_depth = 3, highlight = "default", fig_capt
     toc_depth = toc_depth,
     highlight = highlight,
     fig_caption = fig_caption,
-    template = "template.tex",
+    template = "rtemplate.tex",
 #    latex_engine: xelatex,
 #    keep_tex: keep_tex,
 #    includes = includes(in_header = "in_header.tex"),
