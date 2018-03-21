@@ -13,7 +13,7 @@ termpaper <- function(toc = TRUE) {
     toc = toc,
     latex_engine: xelatex,
     keep_tex: keep_tex,
-    fig_caption: yes,
+    fig_caption: TRUE,
     includes = includes(in_header = in_header.tex,
                         before_body = before_body.tex,
                         after_body = after_body.tex))
