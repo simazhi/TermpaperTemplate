@@ -1,31 +1,39 @@
 ---
 title: "Study Plan for the Financial Assistance Grant for International Students"
+#subtitle: "Study plan"
 author: "Thomas Van Hoey 司馬智"
+#  institute: "Graduate Institute of Linguistics, National Taiwan University"
 date: "March 2018"
+
+
+bibliography: references.bib
+csl: unified-style-linguistics.csl 
+
 output:
-  TermpaperTemplate::quarterly_report: default
-  'TermpaperTemplate:': quarterly_report
+  TermpaperTemplate:: quarterly_report
   bookdown::pdf_document2:
     fig_caption: yes
-    includes:
-      after_body: after_body.tex
-      before_body: before_body.tex
-      in_header: in_header.tex
-    keep_tex: yes
     latex_engine: xelatex
+    keep_tex: yes
     toc: no
-csl: unified-style-linguistics.csl
-abstract: \noindent "Here is the abstract. Replace the text within the quotation marks
-  a, b
-  + the quotation marks themselves for the final abstract." \par \textbf{Keywords:}
+    includes:
+      in_header: in_header.tex
+      before_body: before_body.tex
+      after_body: after_body.tex
+      
+
+
 documentclass: article
 fontsize: 12pt
 geometry: margin=1in
 linestretch: 1
+
 mainfont: Noto Serif
-bibliography: references.bib
 sansfont: Noto Sans
 CJKmainfont: Noto Sans CJK TC
+
+abstract: \noindent "Here is the abstract. Replace the text within the quotation marks + the quotation marks themselves for the final abstract." \par \textbf{Keywords:} a, b
+
 ---
 
 
