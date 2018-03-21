@@ -11,7 +11,8 @@ csl: unified-style-linguistics.csl
 
 output:
   TermpaperTemplate::termpaper:
-
+    latex_engine: xelatex
+    keep_tex: true
       
 
 
