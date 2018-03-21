@@ -11,7 +11,7 @@ csl: unified-style-linguistics.csl
 
 output:
   TermpaperTemplate:: termpaper:
-    toc = no
+    fig_caption: TRUE
       
 
 
