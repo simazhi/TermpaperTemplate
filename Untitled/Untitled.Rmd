@@ -12,6 +12,10 @@ csl: unified-style-linguistics.csl
 output:
   TermpaperTemplate::termpaper:
     latex_engine: xelatex
+    includes: 
+      - in_header: in_header.tex
+      - before_body: before_body.tex
+      - after_body: after_body.tex
       
 
 
@@ -31,6 +35,7 @@ abstract: \noindent "Here is the abstract. Replace the text within the quotation
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(TermpaperTemplate)
 ```
 
 # Introduction {.unnumbered}
